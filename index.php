@@ -115,7 +115,7 @@
                         <span aria-hidden="true">GamerSCerberus</span>
                     </span>
                 </h1>
-                <p>The best virtual video game store with neon aesthetics focused on the sale of the gamer world where
+                <p>The best virtual video game store with vaporwave aesthetics focused on the sale of the gamer world where
                     you can find all your video games, consoles, components and accessories at the best price and
                     quality on the market.</p>
                 <button class="btnMain slidebtn" onclick="window.location.href='views/register.php'">Sign up</button>
@@ -254,8 +254,8 @@
                         <i class='bx bx-heart'></i>
                     </div>
                     <div>
-                        <span class="card__value card__value--before">$3.900.000</span>
-                        <span class="card__value card__value--now">$3.600.000</span>
+                        <span class="card__value card__value--before">$3.300.000</span>
+                        <span class="card__value card__value--now">$3.100.000</span>
                     </div>
                     <div class="card__icon">
                         <i class='bx bx-cart-alt'></i>
@@ -275,8 +275,8 @@
                         <i class='bx bx-heart'></i>
                     </div>
                     <div>
-                        <span class="card__value card__value--before">$3.700.000</span>
-                        <span class="card__value card__value--now">$3.200.000</span>
+                        <span class="card__value card__value--before">$1.700.000</span>
+                        <span class="card__value card__value--now">$1.500.000</span>
                     </div>
                     <div class="card__icon">
                         <i class='bx bx-cart-alt'></i>
@@ -289,7 +289,7 @@
                         alt="ps4" loading="lazy">
                 </div>
                 <div class="card__name">
-                    <p>Playstation 4</p>
+                    <p>Playstation 4 Pro</p>
                 </div>
                 <div class="card__info">
                     <div class="card__icon">
@@ -297,7 +297,7 @@
                     </div>
                     <div>
                         <span class="card__value card__value--before">$1.500.000</span>
-                        <span class="card__value card__value--now">$1.120.000</span>
+                        <span class="card__value card__value--now">$1.420.000</span>
                     </div>
                     <div class="card__icon">
                         <i class='bx bx-cart-alt'></i>
@@ -314,7 +314,7 @@
                         alt="teclado" loading="lazy">
                 </div>
                 <div class="card__name">
-                    <p>Teclado RGB</p>
+                    <p>Keyboard RGB</p>
                 </div>
                 <div class="card__info">
                     <div class="card__icon">
@@ -335,7 +335,7 @@
                         alt="teclado" loading="lazy">
                 </div>
                 <div class="card__name">
-                    <p>Teclado RGB</p>
+                    <p>Keyboard RGB</p>
                 </div>
                 <div class="card__info">
                     <div class="card__icon">
@@ -356,7 +356,7 @@
                         alt="audifonos" loading="lazy">
                 </div>
                 <div class="card__name">
-                    <p>Audifonos RGB</p>
+                    <p>Headset RGB</p>
                 </div>
                 <div class="card__info">
                     <div class="card__icon">
@@ -417,7 +417,7 @@
             </div>
             <div class="box">
                 <h2>About us</h2>
-                <p>GamerSCerberus is a virtual video game store with neon aesthetics where you can find all your
+                <p>GamerSCerberus is a virtual video game store with vaporwave aesthetics where you can find all your
                     video games, consoles, components and accessories at the best price and quality on the market.</p>
 
             </div>

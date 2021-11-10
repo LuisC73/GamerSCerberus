@@ -161,7 +161,7 @@ include("../controllers/controllerListProducts.php");
             </div>
             <div class="box">
                 <h2>About us</h2>
-                <p>GamerSCerberus is a virtual video game store with neon aesthetics where you can find all your
+                <p>GamerSCerberus is a virtual video game store with vaporwave aesthetics where you can find all your
                     video games, consoles, components and accessories at the best price and quality on the market.</p>
 
             </div>
