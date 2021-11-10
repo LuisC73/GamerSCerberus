@@ -1,0 +1,119 @@
+:root {
+    --rosa: rgba(234, 28, 85, 1);
+    --morado: RGB(233, 30, 252);
+    --MoradoOscuro: rgba(18, 14, 39, 1);
+    --Amarillo: rgba(254, 117, 28, 1);
+    --Azul: rgba(34, 254, 254, 1);
+    --font2: 'Comfortaa';
+    --fondo: #0c091c;
+    --rosaClaro:#F95BF6;
+  }
+  @font-face {
+    font-family: 'Comfortaa';
+    src: url(../font/Comfortaa-Light.ttf);
+  }
+
+/*:::::Pie de Pagina*/
+.pie-pagina{
+    width: 100%;
+    background-color: #f3f4f5;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 35px 10px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: var(--rosaClaro);
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-family: var(--font2);
+}
+.pie-pagina .grupo-1 .box p{
+    color: var(--rosaClaro);
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .box span{
+    color: var(--rosaClaro);
+    margin-right: 10px;
+}
+
+.pie-pagina .grupo-1 .box a{
+    text-decoration: none;
+    color: var(--rosaClaro);
+}
+
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: var(--rosaClaro);
+    margin-right: 10px;
+    background-color: transparent;
+    text-align: center;
+    transition: all 300ms ease;
+    font-size: 25px;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: var(--Azul);
+}
+.pie-pagina .grupo-2{
+    background-color: var(--rosaClaro);
+    box-shadow: 0 0 2em 0.5em var(--rosaClaro);
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Comfortaa';
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
+
+#button-up{
+    width: 60px;
+    height: 60px;
+    background: var(--rosaClaro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    border: 4px solid transparent;
+    transition: all 300ms ease;
+    transform: scale(0);
+  }
+  
+  #button-up:hover{
+    transform: scale(1.1);
+    border-color: rgba(0,0,0,0.1);
+  }
