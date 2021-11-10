@@ -115,7 +115,8 @@
                         <span aria-hidden="true">GamerSCerberus</span>
                     </span>
                 </h1>
-                <p>The best virtual video game store with vaporwave aesthetics focused on the sale of the gamer world where
+                <p>The best virtual video game store with vaporwave aesthetics focused on the sale of the gamer world
+                    where
                     you can find all your video games, consoles, components and accessories at the best price and
                     quality on the market.</p>
                 <button class="btnMain slidebtn" onclick="window.location.href='views/register.php'">Sign up</button>
@@ -131,9 +132,67 @@
         </div>
         <!--  Inicio cartas  -->
         <img src="public/img/web/wave2.svg" alt="" class="waveTp">
+        <h3 class="title">Our Services</h3>
+        <div class="container">
+            
+        <div class="row">
+            <div class="column">
+
+                <div class="effect">
+                    <div class="effect-img">
+                        <img src="public/img/web/fondoMain2.jpg" alt="">
+                    </div>
+                    <div class="effect-text">
+                        <div class="inner">
+                            <h2>Games</h2>
+                            <p>Find your favorite games at the best price...</p>
+                            <div class="effect-btn">
+                                <a href="views/games.php" class="btn"><i class='bx bx-show-alt'></i> See More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="effect">
+                    <div class="effect-img">
+                        <img src="public/img/web/consoles.jpg" alt="">
+                    </div>
+                    <div class="effect-text">
+                        <div class="inner">
+                            <h2>Consoles</h2>
+                            <p>Find the consoles at the best price and quality....</p>
+                            <div class="effect-btn">
+                                <a href="views/consoles.php" class="btn"><i class='bx bx-show-alt'></i> See More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="effect">
+                    <div class="effect-img">
+                        <img src="public/img/web/accessories.jpg" alt="">
+                    </div>
+                    <div class="effect-text">
+                        <div class="inner">
+                            <h2>Accessories</h2>
+                            <p>Find the accessories at the best price and quality....</p>
+                            <div class="effect-btn">
+                                <a href="views/accessories.php" class="btn"><i class='bx bx-show-alt'></i> See More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <hr class="raya">
         <h3 class="title">Trending Games</h3>
         <div class="bg__card">
-        
+
             <div class="card">
                 <div class="card__img">
                     <img src="public/img/games/producto1.jpg" alt="fifa22" loading="lazy">
@@ -402,9 +461,9 @@
     </div>
     <!-- fin boton para subir -->
     <!--  Inicio Footer  -->
-    
+
     <footer class="pie-pagina">
-    
+
         <div class="grupo-1">
             <div class="box">
                 <h2>Contact</h2>
