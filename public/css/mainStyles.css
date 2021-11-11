@@ -624,6 +624,12 @@ body {
   width: 100%;
 }
 
+.waveBottom2{
+  position: relative;
+  top:10px;
+  width: 100%;
+}
+
 
 /* Cartas de productos */
 

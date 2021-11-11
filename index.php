@@ -453,6 +453,7 @@
             </div>
         </div>
         <!-- -- Fin cartas -- -->
+        <img src="public/img/web/waveBottom.svg" alt="" class="waveBottom2">
     </main>
     <!--  Fin main  -->
     <!--inicio boton para subir -->

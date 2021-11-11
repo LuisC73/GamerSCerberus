@@ -143,7 +143,7 @@ include("../controllers/controllerListProducts.php")
             </div>
             <?php endforeach ?>
         </div>
-
+        <img src="../public/img/web/waveBottom.svg" alt="" class="waveBottom2">
     </main>
     <div id="button-up">
     <i class='bx bxs-chevron-up'></i>

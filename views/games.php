@@ -114,7 +114,7 @@ include("../controllers/controllerListProducts.php");
             <div class="svg-hero" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150"
                     preserveAspectRatio="none" style="height: 100%; width: 100%;">
                     <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-                        style="stroke: none; fill: #5BA6E2;"></path>
+                        style="stroke: none; fill: #5EA1E0;"></path>
                 </svg></div>
         </div>
 
@@ -143,6 +143,7 @@ include("../controllers/controllerListProducts.php");
             </div>
             <?php endforeach ?>
         </div>
+        <img src="../public/img/web/waveBottom.svg" alt="" class="waveBottom2">
     </main>
     <div id="button-up">
         <i class='bx bxs-chevron-up'></i>

@@ -67,6 +67,11 @@
 .nav__link {
   color: #fff;
 }
+.header__icon, 
+.header__toggle {
+  font-size: 1.2rem;
+  color: var(--morado);
+}
 
 .nav__dropdown-collapse {
   background-color: rgb(202, 199, 199);
@@ -135,10 +140,10 @@
 
 .glitch {
 	text-transform: uppercase;
-	color: var(--morado);
+	color: white;
 	font-weight: 700;
 	text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
-	  -0.025em -0.05em 0 rgba(241, 241, 241, 0.75),
+	  -0.025em -0.05em 0 rgba(0, 255, 0, 0.75),
 	  0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
 	animation: glitch 500ms infinite;
 	position: relative;
@@ -172,35 +177,35 @@
   @keyframes glitch {
 	0% {
 	  text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
-		-0.05em -0.025em 0 rgba(241, 241, 241, 0.75),
+		-0.05em -0.025em 0 rgba(0, 255, 0, 0.75),
 		-0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
 	}
 	14% {
 	  text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
-		-0.05em -0.025em 0 rgba(241, 241, 241, 0.75),
+		-0.05em -0.025em 0 rgba(0, 255, 0, 0.75),
 		-0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
 	}
 	15% {
 	  text-shadow: -0.05em -0.025em 0 rgba(255, 0, 0, 0.75),
-		0.025em 0.025em 0 rgba(241, 241, 241, 0.75),
+		0.025em 0.025em 0 rgba(0, 255, 0, 0.75),
 		-0.05em -0.05em 0 rgba(0, 0, 255, 0.75);
 	}
 	49% {
 	  text-shadow: -0.05em -0.025em 0 rgba(255, 0, 0, 0.75),
-		0.025em 0.025em 0 rgba(241, 241, 241, 0.75),
+		0.025em 0.025em 0 rgba(0, 255, 0, 0.75),
 		-0.05em -0.05em 0 rgba(0, 0, 255, 0.75);
 	}
 	50% {
 	  text-shadow: 0.025em 0.05em 0 rgba(255, 0, 0, 0.75),
-		0.05em 0 0 rgba(241, 241, 241, 0.75), 0 -0.05em 0 rgba(0, 0, 255, 0.75);
+		0.05em 0 0 rgba(0, 255, 0, 0.75), 0 -0.05em 0 rgba(0, 0, 255, 0.75);
 	}
 	99% {
 	  text-shadow: 0.025em 0.05em 0 rgba(255, 0, 0, 0.75),
-		0.05em 0 0 rgba(241, 241, 241, 0.75), 0 -0.05em 0 rgba(0, 0, 255, 0.75);
+		0.05em 0 0 rgba(0, 255, 0, 0.75), 0 -0.05em 0 rgba(0, 0, 255, 0.75);
 	}
 	100% {
 	  text-shadow: -0.025em 0 0 rgba(255, 0, 0, 0.75),
-		-0.025em -0.025em 0 rgba(241, 241, 241, 0.75),
+		-0.025em -0.025em 0 rgba(0, 255, 0, 0.75),
 		-0.025em -0.05em 0 rgba(0, 0, 255, 0.75);
 	}
   }
@@ -223,7 +228,7 @@
 .textos-hero p{
     font-size: 25px;
     margin-bottom: 20px;
-    color: var(--morado);
+    color: white;
 	text-shadow: 0 0 5px var(--morado), 0 0 15px var(--morado);
   font-family: 'Comfortaa';
 }
@@ -235,6 +240,12 @@
     bottom: 0;
     left: 0;
     width: 100%;
+}
+
+.waveBottom2{
+  position: relative;
+  top:10px;
+  width: 100%;
 }
 
 .title{
@@ -324,6 +335,7 @@
 .card__value--now{
   color: black;
   font-weight: bold;
+  text-shadow: 0 0 5px var(--morado), 0 0 15px var(--morado);
 }
 
 .card:hover{

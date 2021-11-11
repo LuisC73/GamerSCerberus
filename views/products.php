@@ -229,6 +229,7 @@ if(!isset($_SESSION)){
             </div>
             <?php endforeach ?>
         </div>
+        <img src="../public/img/web/waveBottom.svg" alt="" class="waveBottom2">
     </main>
     <?php if(isset($_SESSION['mensaje'])):?>
         <div class="overlay2">
