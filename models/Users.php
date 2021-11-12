@@ -40,7 +40,7 @@
     
         public function update($id){
     
-            $querySQL="UPDATE users SET nameUser='$this->nameUser', lastName='$this->lastName', age='$this->age', email='$this->age', passwordUser='$this->passwordUser', addressUser='$this->addressUser', photo='$this->photo'  WHERE id_user='$id'";
+            $querySQL="UPDATE users SET nameUser='$this->nameUser', email='$this->email', addressUser='$this->addressUser' WHERE id_user='$id'";
     
             return $querySQL;
         }

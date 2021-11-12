@@ -98,7 +98,7 @@ if(!isset($_SESSION)){
                             </a>
                             <div class="nav__dropdown-collapse">
                                 <div class="nav__dropdown-content">
-                                    <a href="#" class="nav__dropdown-item">Perfil</a>
+                                    <a href="profile.php" class="nav__dropdown-item">Perfil</a>
                                     <a href="register.php" class="nav__dropdown-item">Register/Login</a>
                                 </div>
                             </div>
@@ -139,7 +139,7 @@ if(!isset($_SESSION)){
                         <!--<i class='bx bxs-edit-alt btn-open-edit' id="btn-open-edit"></i>-->
                     </div>
                     <div>
-                        <span class="card__value card__value--before">Value Before</span>
+                        <span class="card__value card__value--before">Brand</span>
                         <span class="card__value card__value--now">Value Now</span>
                     </div>
                     <div class="card__icon">
@@ -163,7 +163,7 @@ if(!isset($_SESSION)){
                     </div>
                     <div>
                         <span class="card__value card__value--before">
-                            <?= "$".$product["valueP"] ?>
+                            <?= $product["brand"] ?>
                         </span>
                         <span class="card__value card__value--now"><?= "$".$product["valueP"] ?></span>
                     </div>
@@ -213,9 +213,6 @@ if(!isset($_SESSION)){
                                                     <label class="form-label">Value</label>
                                                     <input name="valueAdd" type="text" class="form-control inputStyle"
                                                         value="<?= $product["valueP"] ?>">
-                                                        <label class="form-label">Amount</label>
-                                                    <input name="amountAdd" type="text" class="form-control inputStyle"
-                                                        value="<?= $product["amount"] ?>">
                                                 </div>
                                                 <button type="submit" value="Edit" name="edit" class="btnStyle col-12">Edit</button>
                                             </form>

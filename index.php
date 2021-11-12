@@ -205,7 +205,7 @@
                         <i class='bx bx-heart'></i>
                     </div>
                     <div>
-                        <span class="card__value card__value--before">$500.000</span>
+                        <span class="card__value card__value--before">All</span>
                         <span class="card__value card__value--now">$300.000</span>
                     </div>
                     <div class="card__icon">
@@ -226,7 +226,7 @@
                         <i class='bx bx-heart'></i>
                     </div>
                     <div>
-                        <span class="card__value card__value--before">$250.000</span>
+                        <span class="card__value card__value--before">All</span>
                         <span class="card__value card__value--now">$220.000</span>
                     </div>
                     <div class="card__icon">
@@ -246,7 +246,7 @@
                         <i class='bx bx-heart'></i>
                     </div>
                     <div>
-                        <span class="card__value card__value--before">$240.000</span>
+                        <span class="card__value card__value--before">All</span>
                         <span class="card__value card__value--now">$210.000</span>
                     </div>
                     <div class="card__icon">
@@ -267,7 +267,7 @@
                         <i class='bx bx-heart'></i>
                     </div>
                     <div>
-                        <span class="card__value card__value--before">$1900.000</span>
+                        <span class="card__value card__value--before">All</span>
                         <span class="card__value card__value--now">$170.000</span>
                     </div>
                     <div class="card__icon">
@@ -292,7 +292,7 @@
                         <i class='bx bx-heart'></i>
                     </div>
                     <div>
-                        <span class="card__value card__value--before">$4.500.000</span>
+                        <span class="card__value card__value--before">Playstation</span>
                         <span class="card__value card__value--now">$4.000.000</span>
                     </div>
                     <div class="card__icon">
@@ -313,7 +313,7 @@
                         <i class='bx bx-heart'></i>
                     </div>
                     <div>
-                        <span class="card__value card__value--before">$3.300.000</span>
+                        <span class="card__value card__value--before">Xbox</span>
                         <span class="card__value card__value--now">$3.100.000</span>
                     </div>
                     <div class="card__icon">
@@ -334,7 +334,7 @@
                         <i class='bx bx-heart'></i>
                     </div>
                     <div>
-                        <span class="card__value card__value--before">$1.700.000</span>
+                        <span class="card__value card__value--before">Xbox</span>
                         <span class="card__value card__value--now">$1.500.000</span>
                     </div>
                     <div class="card__icon">
@@ -355,7 +355,7 @@
                         <i class='bx bx-heart'></i>
                     </div>
                     <div>
-                        <span class="card__value card__value--before">$1.500.000</span>
+                        <span class="card__value card__value--before">Playstation</span>
                         <span class="card__value card__value--now">$1.420.000</span>
                     </div>
                     <div class="card__icon">
@@ -380,7 +380,7 @@
                         <i class='bx bx-heart'></i>
                     </div>
                     <div>
-                        <span class="card__value card__value--before">$150.000</span>
+                        <span class="card__value card__value--before"></span>
                         <span class="card__value card__value--now">$120.000</span>
                     </div>
                     <div class="card__icon">
@@ -401,7 +401,7 @@
                         <i class='bx bx-heart'></i>
                     </div>
                     <div>
-                        <span class="card__value card__value--before">$200.000</span>
+                        <span class="card__value card__value--before"></span>
                         <span class="card__value card__value--now">$168.900</span>
                     </div>
                     <div class="card__icon">
@@ -422,7 +422,7 @@
                         <i class='bx bx-heart'></i>
                     </div>
                     <div>
-                        <span class="card__value card__value--before">$155.000</span>
+                        <span class="card__value card__value--before"></span>
                         <span class="card__value card__value--now">$142.000</span>
                     </div>
                     <div class="card__icon">
@@ -443,7 +443,7 @@
                         <i class='bx bx-heart'></i>
                     </div>
                     <div>
-                        <span class="card__value card__value--before">$80.000</span>
+                        <span class="card__value card__value--before"></span>
                         <span class="card__value card__value--now">$70.000</span>
                     </div>
                     <div class="card__icon">

@@ -133,7 +133,7 @@ include("../controllers/controllerListProducts.php");
                         <i class='bx bx-heart'></i>
                     </div>
                     <div>
-                        <span class="card__value card__value--before"><?= "$".$product["valueP"] ?></span>
+                        <span class="card__value card__value--before"><?= $product["brand"] ?></span>
                         <span class="card__value card__value--now"><?= "$".$product["valueP"] ?></span>
                     </div>
                     <div class="card__icon">

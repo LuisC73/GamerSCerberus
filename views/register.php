@@ -90,7 +90,7 @@
                                 </a>
                                 <div class="nav__dropdown-collapse">
                                     <div class="nav__dropdown-content">
-                                        <a href="#" class="nav__dropdown-item">Perfil</a>
+                                        <a href="profile.php" class="nav__dropdown-item">Perfil</a>
                                         <a href="register.php" class="nav__dropdown-item">Register/Login</a>
                                     </div>
                                 </div>

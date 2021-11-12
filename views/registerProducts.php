@@ -39,8 +39,8 @@
               <input type="text" name="valueAdd" required>
             </div>
             <div class="input-box">
-              <span class="details">Amount</span>
-              <input type="text" name="amountAdd" required>
+              <span class="details">Brand</span>
+              <input type="text" name="brandAdd" required>
             </div>
             <div class="input-box">
               <span class="details">Photo</span>

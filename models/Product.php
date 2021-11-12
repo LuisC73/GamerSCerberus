@@ -5,22 +5,22 @@ class Product{
     public $nameP;
     public $category;
     public $valueP;
-    public $amount;
+    public $brand;
     public $img;
 
-    public function __construct($nameForm,$categoryForm,$valueForm,$amountForm,$imgForm){
+    public function __construct($nameForm,$categoryForm,$valueForm,$brandForm,$imgForm){
         $this->nameP=$nameForm;
         $this->category=$categoryForm;
         $this->valueP=$valueForm;
-        $this->amount=$amountForm;
+        $this->brand=$brandForm;
         $this->img=$imgForm;
         
     }
 
     public function register(){
 
-        $querySQL="INSERT INTO products(nameP,amount,category,valueP,img) 
-        VALUES ('$this->nameP','$this->amount',' $this->category','$this->valueP','$this->img')";
+        $querySQL="INSERT INTO products(nameP,brand,category,valueP,img) 
+        VALUES ('$this->nameP','$this->brand',' $this->category','$this->valueP','$this->img')";
         return $querySQL; 
 
     }
@@ -38,7 +38,7 @@ class Product{
 
     public function update($id){
 
-        $querySQL="UPDATE products SET amount='$this->amount',valueP='$this->valueP' WHERE id='$id'";
+        $querySQL="UPDATE products SET valueP='$this->valueP' WHERE id='$id'";
 
         return $querySQL;
 

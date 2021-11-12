@@ -14,7 +14,7 @@ if(isset($_POST["register"])){
     $amount=$_POST["amountAdd"];
     $img=$_POST["imgAdd"];
 
-    if($amount>0){
+    
         $product= new Product($nameP,$category,$valueP,$amount,$img);
         $dataBase= new DataBase();
         $result=$dataBase->insertRegisters($product->register());
@@ -28,11 +28,6 @@ if(isset($_POST["register"])){
             $_SESSION['mensaje1']="¡Error 400!";
             header("Location:../views/registerProducts.php");
         }
-    }else{
-        $_SESSION['mensaje']="upss... The amount must be greater than 0";
-        $_SESSION['mensaje1']="¡Error 400!";
-        header("Location:../views/registerProducts.php");
-    }
 
    
 }else{
