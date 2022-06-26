@@ -1,0 +1,2 @@
+# GamerSCerberus
+Tienda de videojuegos
