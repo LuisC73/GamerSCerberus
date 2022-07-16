@@ -11,6 +11,10 @@
 - [PHP]
 - [MySQL]
 
+## About
+
+- Pagina Web desarrollada en equipo con Juan Pablo Garcia, con tematica en el estilo Vaporwave. Es una tienda de tecnologia donde podras adquirir diferentes 
+productos como consolas, videojuegos y accesorios.
 
 ## How To Use
 
