@@ -1,9 +1,9 @@
 
-<h1 align="center">GamerSCerberus/h1>
+<h1 align="center">GamerSCerberus</h1>
 
 ## Overview
 
-![me](https://user-images.githubusercontent.com/80079884/178081932-5b4093f8-60ea-467f-ae86-69ee60a70006.jpg)
+![gs](https://user-images.githubusercontent.com/80079884/179329953-b3529b60-5eef-4892-a5bc-fe8cd2941042.jpg)
 
 ### Built With
 
