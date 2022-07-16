@@ -1,5 +1,5 @@
 
-<h1 align="center">GamerSCerberus</h1>
+<h1 align="center">🕹GamerSCerberus💻</h1>
 
 ![gs](https://user-images.githubusercontent.com/80079884/179329953-b3529b60-5eef-4892-a5bc-fe8cd2941042.jpg)
 
